@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Titillium+Web:ital,wght@0,200;0,400;1,200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Titillium+Web:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+        footer{
+          font-family: 'Titillium Web', sans-serif;
+          font-size:12px;
+          color:#411F1F}
+        
+        
+        .footer-distributed{
+            background: #F3F3F3;
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+            box-sizing: border-box;
+            width: 100%;
+            text-align: left;
+            font: bold 16px sans-serif;
+            padding: 55px 50px;
+        }
+        
+        .footer-distributed .footer-left,
+        .footer-distributed .footer-center,
+        .footer-distributed .footer-right{
+            display: inline-block;
+        
+        }
+        
+        /* Footer left */
+        
+        .footer-distributed .footer-left{
+            width: 40%;
+        }
+        
+        /* The company logo */
+        
+        .footer-distributed h3{
+            
+            font: normal 39px 'Open Sans', cursive;
+            margin: 0;
+        
+        }
+        
+        /* Footer links */
+        
+        .footer-distributed .footer-links{
+            color: #411F1F;;
+            margin: 0;
+            font-size:15px;
+         
+            padding: 0;
+        }
+        
+        .footer-distributed .footer-links a{
+            display:inline-block;
+            line-height: 1.8;
+          font-weight:400;
+            text-decoration: none;
+            color:  inherit;
+        }
+        
+        .footer-distributed .footer-company-name{
+            color:  #222;
+            font-size: 14px;
+            font-weight: normal;
+            margin: 0;
+        }
+        
+        /* Footer Center */
+        
+        .copyrights{
+            width: 100%;
+            height:20px;
+            background-color: #411F1F;
+        }
+        .footer-distributed .footer-links a:before {
+          content: "|";
+          font-weight:30;
+          font-size: 20px;
+          left: 0;
+          color: #411F1F;
+          display: inline-block;
+          padding-right: 3px;
+        }
+        .footer-links a{
+            font-family: 'Titillium Web', sans-serif;
+          font-size:15px;
+          color:#411F1F;
+            text-align: center;
+          }
+        .footer-distributed .footer-links .link-1:before {
+          content: none;
+        }
+        i{
+          width:600%;
+          
+        }
+        /* Footer Right */
+        
+        .footer-distributed .footer-right{
+            width: 90%;
+        }
+        
+        @media (max-width: 880px) {
+        
+            .footer-distributed{
+                font: bold 14px sans-serif;
+            }
+        
+            .footer-distributed .footer-left,
+            .footer-distributed .footer-center,
+            .footer-distributed .footer-right{
+                display: block;
+                width: 100%;
+                
+                text-align: center;
+            }
+          
+            
+        
+          .footer-links{
+            font-family: 'Titillium Web', sans-serif;
+          font-size:12px;
+          color:#411F1F;
+            text-align: center;
+          }
+        }
+        
+        </style>
+    <style>* {
+        box-sizing: border-box;
+   }
+    body {
+        background: #fcf8e8;
+        min-width: 320px;
+   }
+   .number1{
+    text-align: center;
+    color: #df7861;
+    font-family: 'Quicksand', sans-serif;
+   }
+    h2 {
+        text-align: center;
+        top:25px;
+        margin: 0px 0;
+        color: #df7861;
+        font-size: 47px;
+        font-family: 'Quicksand', sans-serif;
+   }
+    @media (max-width: 540px) {
+        h2 {
+            font-size: 28px;
+            margin: 30px 0;
+       }
+   }
+    form {
+        padding: 0 10%;
+   }
+    form section {
+        width: calc(50% - 40px);
+        padding: 20px;
+        background: #94b49f;
+        margin: 20px;
+        border-radius: 5px;
+   }
+    form section.left {
+        float: left;
+   }
+    form section.right {
+        float: right;
+   }
+    form section .input-container {
+        padding: 10px;
+   }
+    form section .input-container label {
+        display: block;
+        margin-bottom: 4px;
+        color: white;
+        font-weight: bold;
+        font-size: 16px;
+        text-shadow: 0px 2px 1px #65ad6b;
+        font-family: 'Quicksand', sans-serif;
+   }
+    form section .input-container .custom-file-upload {
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 6px 12px;
+        cursor: pointer;
+   }
+    form section .input-container input, form section .input-container select, form section .input-container option, form section .input-container button, form section .input-container textarea {
+        width: 100%;
+        padding: 5px 10px;
+        height: 40px;
+        border-radius: 5px;
+        border: none;
+        background: #ecb390;
+        box-shadow: 0 2px 0px #ecb390;
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+        color: #757575;
+   }
+    form section .input-container input:focus, form section .input-container select:focus, form section .input-container option:focus, form section .input-container button:focus, form section .input-container textarea:focus {
+        outline: none;
+        background: white;
+   }
+    form section .input-container textarea {
+        height: 122px;
+        padding: 15px 10px;
+        resize: none;
+   }
+    form .send-container {
+        float: right;
+        width: 100%;
+        text-align: right;
+        margin-right: 20px;
+   }
+    form .send-container input {
+        background: #77bd7d;
+        border: none;
+        color: white;
+        padding: 15px 30px;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+   }
+    form .send-container input:hover {
+        background: #8ed294;
+   }
+    form:after {
+        content: "";
+        display: block;
+        clear: both;
+   }
+    @media (max-width: 992px) {
+        form {
+            padding: 0 5%;
+       }
+   }
+    @media (max-width: 768px) {
+        form {
+            margin-bottom: 50px;
+       }
+        form section {
+            width: 100%;
+            margin: 0;
+       }
+        form section.left {
+            margin-bottom: -30px;
+       }
+        form .send-container {
+            margin-right: 0;
+            margin-top: 15px;
+       }
+        form .send-container input {
+            width: 100%;
+       }
+   }
+    </style>
+</head>
+<body>
+    <h2>Admin Portal</h2>
+    <h4 class="number1">Total Crads Rightnow:12</h4>
+<form action="">
+    <section class="left">
+      <div class="input-container">
+        <label for="name">Name to be Appear on Top</label>
+        <input type="text" />
+      </div>
+      <div class="input-container">
+        <label for="age" required>Date to be Saved</label>
+        <input type="date" />
+      </div>
+      <div class="input-container">
+        <label for="phone">Type Of Event</label>
+        <select>
+    <option value="volvo">Wedding</option>
+    <option value="saab">Baby photography</option>
+    <option value="mercedes">Bride Photography</option>
+    <option value="audi">Groom</option>
+  </select>
+      </div>
+      <div class="input-container">
+        <label for="email">Location</label>
+        <input type="text" />
+      </div>
+      
+    </section>
+    <section class="right">
+      <div class="input-container">
+        <label for="address">Number of days Shot has been done</label>
+        <input type="text" />
+      </div>
+     <div class="input-container">
+        <label for="address">Name of the Mahal</label>
+        <input type="text" />
+      </div>
+       
+      <div class="input-container">
+        <label for="address"> Upload Cover Image  <span></span></label>
+        <input type="file" value="Send" />
+      </div>
+      <div class="input-container">
+        <label for="address"> Upload Cover Image  <span></span></label>
+        <input type="file" value="Send" />
+      </div>
+    </section>
+    <div class="send-container">
+      <input type="submit" value="Send" onclick="return true"/>
+    </div>
+  </form>
+  <footer>
+        
+    <footer class="footer-distributed">
+    
+      <div class="footer-left">
+    
+        <h3 style="font-family: 'Playfair Display', serif;color:#411F1F">Zappy Photogrphy<span><img style="height: 20vh;" src="blob:https://web.whatsapp.com/d851746e-1788-415d-b1b7-7313a8875da7" alt=""></span></h3>
+    
+        <p class="footer-links">
+          <a href="#" class="link-1">Home</a>
+    
+          <a href="#">Moments</a>
+    
+          <a href="#">AboutUs</a>
+    
+          <a href="#">ContactUs</a>
+    
+          
+        </p>
+    
+        <p class="footer-company-name" style="font-family: 'Titillium Web', sans-serif; ;">203, 1st floor,vignesh complex, veerappan palayam pirivu,perudurai road , Erode, India, Tamil Nadu</p>
+         <h4 style="font-family: 'Titillium Web', sans-serif; color:#411F1F;font-size:15px;">
+    098948 11888</h4>
+    <h4 style="font-family: 'Titillium Web', sans-serif; color:#411F1F;font-size:12px;">Reach Us At:</h4>
+         
+       
+        <p class="footer-links" style="font-family: 'Titillium Web', sans-serif; color:#411F1F;">
+          <a href="#" class="link-1">Youtube</a>
+    
+          <a href="#">Instagram</a>
+    
+          <a href="#">Facebook</a>
+    
+          <a href="#">E-mail</a>
+    
+          
+        </p>
+      </div>
+        
+        
+    
+    
+    </footer>
+    <div class="copyrights"> </div>
+    
+    
+    
+    
+        </footer>
+</body>
+</html>
